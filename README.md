@@ -207,12 +207,7 @@ prueba, la entrada codificada y los bits aleatorios. La
 [explicación del coautor Leonid Levin](https://www.cs.bu.edu/faculty/lnd/research/er-r.htm)
 también enumera estos requisitos.
 
-Por tanto, esa referencia no suministra directamente el verificador
-determinista de una pasada que necesita la búsqueda existencial del PDF.
-Encontrar una ejecución aceptante al escoger también las monedas no equivale
-a comprobar la condición probabilística de aceptación de una misma prueba.
-Esta es una diferencia entre modelos; los tiempos del benchmark no resuelven
-esa diferencia ni constituyen una prueba de P=NP o de P≠NP.
+
 
 El resultado implementado y medido es la búsqueda por configuraciones, con
 verificadores explícitos y respuestas contrastadas.
