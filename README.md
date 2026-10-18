@@ -204,7 +204,7 @@ DOI [10.1145/103418.103428](https://doi.org/10.1145/103418.103428).
 La [versión alojada por Fortnow](https://lance.fortnow.com/papers/files/check.pdf),
 sección 1.2, describe un verificador probabilístico con acceso aleatorio a la
 prueba, la entrada codificada y los bits aleatorios. La
-[explicación del coautor Leonid Levin](https://www.cs.bu.edu/faculty/lnd/research/er-r.htm)
+[explicación  Leonid Levin](https://www.cs.bu.edu/faculty/lnd/research/er-r.htm)
 también enumera estos requisitos.
 
 
