@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "exhaustive_two_variable": 512,
+    "random_truth_table": 300,
+    "wide_masks": 14,
+    "edge_cases": 9,
+    "modular": 84,
+    "parser_rejections": 7,
+    "resource_limits": 2
+  },
+  "total_checks": 929,
+  "sat_statuses": {
+    "SAT": 340,
+    "UNSAT": 494
+  },
+  "variable_length_test": true,
+  "seconds": 1.6102912070000457,
+  "scope": "truth tables + independent DPLL + identical Python/C++ states, transitions and witnesses"
+}

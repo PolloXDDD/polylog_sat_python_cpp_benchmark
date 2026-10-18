@@ -1,0 +1,4 @@
+c x1 and not x1
+p cnf 1 2
+1 0
+-1 0

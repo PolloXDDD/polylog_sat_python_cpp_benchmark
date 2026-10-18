@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-18T04:32:24.986053+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "affinity": [
+    0
+  ],
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "compile_command": [
+    "g++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++17",
+    "/workspace/scratch/30a7ae0e2a00/output/polylog_sat/config_graph.cpp",
+    "-o",
+    "/workspace/scratch/30a7ae0e2a00/output/polylog_sat/config_graph_cpp"
+  ],
+  "parameters": {
+    "repeats": 3,
+    "seeds": 8,
+    "random_sizes": [
+      12,
+      18,
+      24,
+      30,
+      36
+    ],
+    "gaps": [
+      8,
+      12,
+      16,
+      18
+    ],
+    "timeout": 30,
+    "cpu": 0
+  },
+  "timer": "monotonic wall time; graph excludes parse/compile/verification; total includes parse, prepare, graph and witness check; process includes startup/output",
+  "memory": "Linux /proc/self/status VmHWM in KiB, current address space only; includes interpreter/runtime, input and graph; not baseline-subtracted; ru_maxrss fallback outside Linux",
+  "ordering": "sequential, Python/C++ order alternates by case and repetition; one unrecorded warm-up per engine",
+  "source_sha256": {
+    "config_graph.py": "12ee7475a5a0045d061bac5e149f0716a84e8e1d7ce846e7c262fdea9f8c733d",
+    "config_graph.cpp": "c22e2d6d216a7b6bd1129860316237c6d614f7110493856646d4b47d1d1ea047",
+    "benchmark.py": "90c79e3ffcdb54f411a28d63955b10acf2d87cf96abdeafea04356a97f49990c",
+    "validate.py": "c1c66dd3c024eba490fc6dc53814d1b31b4bc56131dbcf5e62db2df6354a27dc"
+  }
+}
